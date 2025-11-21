@@ -33,6 +33,11 @@ O resultado é exibido no Serial Monitor e limitado a no máximo 100%.
 - Validação simples para evitar divisão por zero
 
 ---
+
+##Link Do Video
+https://youtu.be/LPdclPwDDSA
+
+---
 <div align="center">
 
 **Feito por:**
