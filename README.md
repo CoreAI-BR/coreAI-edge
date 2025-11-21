@@ -1,49 +1,53 @@
-# coreAI-edge
-# 📊 Calculadora de Chance de Vaga — ESP32
+lobal Solution — Simulação de Comunicação MQTT com Python
+🧠 Descrição do Projeto
 
-Este projeto foi criado com o objetivo de ajudar estudantes e candidatos a entenderem suas chances médias de conseguir uma vaga de emprego ou estágio. A ideia surgiu da necessidade de visualizar, de forma simples, a relação entre o número de vagas disponíveis e o número de pessoas que já se candidataram.
+Este projeto tem como objetivo simular a comunicação entre um dispositivo IoT e um broker MQTT, representando o envio de dados relacionados à análise de currículos e vagas disponíveis. A proposta está alinhada com os requisitos da Global Solution, utilizando ferramentas acessíveis e funcionais mesmo sem hardware físico.
+⚙️ Tecnologias Utilizadas
 
----
+    Python 3
 
-## ⚙️ Como funciona
+    Google Colab
 
-O sistema pede dois dados via Serial Monitor:
-- Quantas vagas estão disponíveis
-- Quantas pessoas já aplicaram
+    Biblioteca paho-mqtt
 
-Com base nisso, ele calcula a chance média de sucesso usando a fórmula:
+    Broker público HiveMQ
 
+    Aplicativo My MQTT (Android/iOS)
 
-O resultado é exibido no Serial Monitor e limitado a no máximo 100%.
+🚀 Funcionalidade
 
----
+O sistema realiza os seguintes passos:
 
-## 🧩 Componentes usados
+    Solicita ao usuário:
 
-- ESP32 (simulado no Wokwi)
-- Serial Monitor para entrada e saída de dados
-- Ambiente de simulação: [Wokwi](https://wokwi.com/projects/447875983340936193)
+        Quantidade de vagas disponíveis
 
----
+        Quantidade de pessoas que já aplicaram
 
-## 🛠️ Funções principais
+    Calcula uma chance estimada de ser chamado, com base em uma fórmula simples que gera valores entre 0% e 100%.
 
-- `setup()` → inicia a comunicação serial e exibe instruções
-- `loop()` → recebe os dados do usuário, calcula a chance e mostra o resultado
-- Validação simples para evitar divisão por zero
+    Envia a mensagem via protocolo MQTT para o tópico coreAI/curriculo.
 
----
+    A mensagem pode ser visualizada em tempo real no aplicativo My MQTT, conectado ao broker público HiveMQ.
 
-##Link Do Video
-https://youtu.be/LPdclPwDDSA
+📱 Como testar com o app My MQTT
 
----
-<div align="center">
+    Baixe o app My MQTT no celular.
 
-**Feito por:**
+    Vá em Configurações e insira:
 
-- Tomomé — RM: 562422  
-- Leonardo Eiji Kina — RM: 562784  
-- Nicholas Braga de Souza — RM: 561733  
+        Host: broker.hivemq.com
 
-</div>
+        Porta: 1883
+
+        Client ID: qualquer nome (ex.: CoreAIClient)
+
+    Vá em Subscribe e insira o tópico:
+    coreAI/curriculo
+eito por:
+
+    Tomomé — RM: 562422
+
+    Leonardo Eiji Kina — RM: 562784
+
+    Nicholas Braga de Souza — RM: 561733
