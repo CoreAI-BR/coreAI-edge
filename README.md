@@ -1,4 +1,4 @@
-lobal Solution — Simulação de Comunicação MQTT com Python
+Global Solution — Simulação de Comunicação MQTT com Python
 🧠 Descrição do Projeto
 
 Este projeto tem como objetivo simular a comunicação entre um dispositivo IoT e um broker MQTT, representando o envio de dados relacionados à análise de currículos e vagas disponíveis. A proposta está alinhada com os requisitos da Global Solution, utilizando ferramentas acessíveis e funcionais mesmo sem hardware físico.
@@ -44,6 +44,7 @@ O sistema realiza os seguintes passos:
 
     Vá em Subscribe e insira o tópico:
     coreAI/curriculo
+Link Do Video (https://youtu.be/4lY24P2x4R8)
 eito por:
 
     Tomomé — RM: 562422
