@@ -1,8 +1,9 @@
-Global Solution — Simulação de Comunicação MQTT com Python
-🧠 Descrição do Projeto
+Global Solution 
+
+Descrição do Projeto
 
 Este projeto tem como objetivo simular a comunicação entre um dispositivo IoT e um broker MQTT, representando o envio de dados relacionados à análise de currículos e vagas disponíveis. A proposta está alinhada com os requisitos da Global Solution, utilizando ferramentas acessíveis e funcionais mesmo sem hardware físico.
-⚙️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 
     Python 3
 
@@ -14,7 +15,7 @@ Este projeto tem como objetivo simular a comunicação entre um dispositivo IoT 
 
     Aplicativo My MQTT (Android/iOS)
 
-🚀 Funcionalidade
+ Funcionalidade
 
 O sistema realiza os seguintes passos:
 
@@ -30,7 +31,7 @@ O sistema realiza os seguintes passos:
 
     A mensagem pode ser visualizada em tempo real no aplicativo My MQTT, conectado ao broker público HiveMQ.
 
-📱 Como testar com o app My MQTT
+ Como testar com o app My MQTT
 
     Baixe o app My MQTT no celular.
 
