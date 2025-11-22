@@ -47,9 +47,8 @@ O sistema realiza os seguintes passos:
     coreAI/curriculo
 Link Do Video (https://youtu.be/4lY24P2x4R8)
 eito por:
+## 👥 Integrantes do Grupo
 
-    Tomomé — RM: 562422
-
-    Leonardo Eiji Kina — RM: 562784
-
-    Nicholas Braga de Souza — RM: 561733
+- **Leonardo Eiji Kina** - RM 562784
+- **Tomé Rossi Giani** - RM 562422
+- **Nicholas Braga de Souza** - RM 561733
